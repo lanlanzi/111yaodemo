@@ -100,7 +100,28 @@
     margin-bottom: 30px;
 }
 .form-ipt{
-    margin-bottom: 24px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.userErro {
+    font-size: 12px;
+    position: absolute;
+    bottom: -15px;
+    left: 100px;
+    background: url("../images/login/login_ts_icon02.png") no-repeat left center;
+    width: 280px;
+    padding-left: 30px;
+    display: none;
+}
+.passwordErro{
+    font-size: 12px;
+    position: absolute;
+    bottom: -15px;
+    left: 100px;
+    background: url("../images/login/login_ts_icon02.png") no-repeat left center;
+    width: 280px;
+    padding-left: 30px;
+    display:none;
 }
 .form-ipt label{
     width: 80px;
@@ -175,3 +196,73 @@
     top: 170px;
     right: 220px;
 }
+.footer{
+    height: 300px;
+}
+.footer-wrap{
+    width: 1100px;
+    margin: 0 auto;
+}
+.footer-list{
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-left: 10px;
+}
+
+.footer-list dd ul li a{
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.footer-list-last{
+    margin-top: 30px;
+}
+.footer-img{
+    float: right;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.bottom{
+    height: 140px;
+}
+.bottom-wrap{
+    margin: 0 auto;
+    width: 1000px;
+    border-top: 1px solid #d7d7d7;
+    text-align: center;
+}
+
+.bottom-wrap span img{
+    margin: 20px 2px 5px;
+}
+.bottom-wrap p{
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 5px;
+}
+.bottom-wrap p a{
+    text-decoration: none;
+    color: black;
+}
+.bottom-wrap p:nth-last-child(1){
+    line-height: 20px;
+    height: 20px;
+    width: 1000px;
+    text-align: center;
+}
+.bottom-wrap p:nth-last-child(1) img{
+    float: left;
+    margin-left: 210px;
+}
+.bottom-wrap p:nth-last-child(1) span{
+    float: left;
+}
+.tongJi{
+    display: block;
+}
+
