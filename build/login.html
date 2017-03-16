@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>登陆</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/commonstyle.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../commonjs/lib/jquery.min.js"></script>
+    <script src="../commonjs/common.js"></script>
+    <script src="../commonjs/lib/iconfont.js"></script>
+
+</head>
+<body>
+<div class="login-header">
+    <div class="login-header-main">
+        <div class="login-header-l"><a href="index.html"><img src="../images/login/b2cf6667dcefe918e8803b548d5d297a.png"/></a> </div>
+        <ul class="login-header-r">
+            <li><span>实体药店</span></li>
+            <li><span>GPS认证</span></li>
+            <li><span>闪电发货</span></li>
+            <li><span>保密发货</span></li>
+            <li><span>99包邮</span></li>
+        </ul>
+        <div class="login-header-line"></div>
+    </div>
+</div>
+<!--登录框-->
+<div class="login-wraps">
+    <form class="login-form">
+        <div class="login-form-ti">
+            <div class="login-form-ti-l">
+                <h2>老用户登录/<span>尊敬的医药馆用户，欢迎您回来！</span></h2>
+            </div>
+            <div class="login-form-ti-r">
+                <h2>没有账户？<a href="#">立即注册</a></h2>
+
+            </div>
+        </div>
+        <div class="login-form-in">
+            <div class="form-ipt">
+                <label>帐号：</label>
+                <input type="text" id="inputName" placeholder="用户名/手机号/邮箱">
+            </div>
+            <div class="form-ipt">
+                <label>密码：</label>
+                <input type="password" id="inputPassword" placeholder="请输入密码">
+            </div>
+            <div class="form-btn">
+                <button type="submit">立即登录</button>
+            </div>
+            <div class="form-check">
+                <label class="checkbox">
+                    <input type="checkbox">自动登录
+                    <a href="#">忘记密码？</a>
+                </label>
+            </div>
+        </div>
+        <div class="login-form-ways">
+            <span>您可以使用以下账号登录</span>
+            <a href="/login/qqlogin!index.action">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-QQdenglu"></use>
+                </svg>
+                <p>QQ登录</p>
+            </a>
+            <a href="/login/wxlogin!index.action">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-weixindenglu"></use>
+                </svg>
+                <p>微信登录</p>
+            </a>
+            <a href="/login/yktlogin!index.action">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-zhifubao"></use>
+                </svg>
+                <p>医通卡登录</p>
+            </a>
+            <a href="#">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-tongxunlu-true"></use>
+                </svg>
+                <p>支付宝登录</p>
+            </a>
+            </ul>
+        </div>
+    </form>
+    <div class="login-form-img">
+        <img src="../images/login/login_img.jpg" height="300" width="500"/>
+    </div>
+</div>
+<!--footer-->
+<div class="footer">
+    <dl class="footer-list">
+        <dt>关于111</dt>
+        <dd>
+            <ul>
+                <li>
+                    <a>111简介</a>
+                </li>
+                <li>
+                    <a>资质荣誉</a>
+                </li>
+                <li>
+                    <a>加入我们</a>
+                </li>
+                <li>
+                    <a>联系我们</a>
+                </li>
+                <li>
+                    <a>广告合作</a>
+                </li>
+                <li>
+                    <a>网站使用条款</a>
+                </li>
+                <li>
+                    <a>网站免责申明</a>
+                </li>
+                <li>
+                    <a>用户注册协议</a>
+                </li>
+            </ul>
+        </dd>
+    </dl>
+    <dl>
+        <dt>支付配送方式</dt>
+        <dd>
+            <ul>
+                <li>
+                    <a>货到付款</a>
+                </li>
+                <li>
+                    <a>第三方网上支付</a>
+                </li>
+                <li>
+                    <a>配送范围和收费</a>
+                </li>
+                <li>
+                    <a>商品签收注意</a>
+                </li>
+            </ul>
+        </dd>
+    </dl>
+    <dl>
+        <dt>帮助中心</dt>
+        <dd>
+            <ul>
+                <li>
+                    <a>购物指南</a>
+                </li>
+                <li>
+                    <a>订单处理</a>
+                </li>
+                <li>
+                    <a>退换原则</a>
+                </li>
+                <li>
+                    <a>电话查真伪</a>
+                </li>
+                <li>
+                    <a>退换方式</a>
+                </li>
+            </ul>
+        </dd>
+    </dl>
+</div>
+</body>
+</html>

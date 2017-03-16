@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zh-CN">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="111医药馆网上药店是国家药监局认证指定网上药房|打造为老百姓服务药品价格低品种全|网上购药买药就选壹壹壹医药馆药品特卖网站" />
+    <meta name="keywords" content="壹壹壹医药馆|壹药馆|11医药馆|1药馆|医卡通|111医药馆|医药网|药品特卖网站" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="renderer" content="webkit" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta http-equiv="Cache-Control" content="no-siteapp"/> 
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="msapplication-TileImage" content="/static/image/win8-tile-icon.png" />
+    <meta name="msapplication-TileColor" content="#0e90d2" />
+    <title>111医药馆-要健康 要美丽 要时尚-医卡通买药价格低便宜实惠-国家药监局指定壹壹壹医药馆网上连锁药店</title>
+    <link rel="icon" type="/web/image/png" href="/web/img/favicon.png">
+    <link rel="icon" sizes="192x192" href="/web/img/favicon-196x196.png">
+    <link rel="apple-touch-icon-precomposed" href="/static/image/apple-icon-touch.png" />
+</head>
+
+<body>
+<link rel="stylesheet" type="text/css" href="/web/version2.2.0/css/common.css" />
+<link rel="stylesheet" type="text/css" href="/web/version2.2.0/css/jquery-ui-1.10.4.custom.min.css">
+<link rel="stylesheet" type="text/css" href="/web/css/jq-alert-confirm.css">
+<script type="text/javascript" src="/web/version2.2.0/js/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="/web/version2.2.0/js/global.js"></script>
+<script type="text/javascript" src="/web/js/jq-alert-confirm.js"></script>
+<script type="text/javascript" src="/web/js/cookieUtil.js"></script>
+<script type="text/javascript" src="/web/version2.2.0/js/common.extend.js"></script>
+<script type="text/javascript" src="/web/version2.2.0/js/jquery-ui-1.10.4.custom.min.js"></script>
+<script type="text/javascript" src="/web/version2.2.0/js/search.new.js"></script>
+<script type="text/javascript" src="/web/js/cart.js"></script>
+<script type="text/javascript" src="/web/version2.2.0/js/common.js"></script>
+<script type="text/javascript" src="/web/js/ismobile.js"></script>
+<div class="header">
+   	<div class="header-main w1090 clearfix clear" id="goods_detail_class">
+           <input type="hidden" value="2" id="identy"/>
+           <h1 class="logo">
+   <a href="/"><img src="http://img.zdfei.com/static/image/temp/20160727/b2cf6667dcefe918e8803b548d5d297a.png" /></a>
+   <span>111医药馆</span>
+</h1>
+
+           <ul class="header-privilege clearfix">
+           		<li class="separate"></li>
+           		<li><b class="entity"></b>实体药店</li>
+                <li><b class="gsp"></b>GSP认证</li>
+                <li class="morev_h" style="display:none;">更多特权></li>
+                <span class="right_cons">
+	                <li><b class="flash"></b>闪电发货</li>
+	                <li><b class="secrecy"></b>保密发货</li>
+	                <li><b class="express"></b>99包邮</li>
+                </span>
+           </ul>
+           <ul class="header-member-info clearfix" id="hasLogined" style="display:none;">
+            	<li class="header-nav"><a href="/">首页</a></li>
+                <li class="header-nav"><a href="/member/center!getOrderList.action">我的订单</a></li>
+                <li class="header-nav dropdown">
+                	<div class="dt-member-center">用户中心</div>
+                    <div class="dd-member-center clearfix">
+                    	<span><a href="/member/index!getCenterIndex.action">用户中心</a></span>
+                        <div class="dd-member-center-info">
+                    		<i></i>
+                            <div class="header-member-name clearfix">
+                            	<a href="/login/login!logout.action" class="header-exit">退出</a>
+                            	<dl class="clearfix">
+                                	<dt><img class="head_url" src="/web/version2.2.0/images/common/none.jpg"/></dt>
+                                    <dd class="show_username">tanrenjie</dd>
+                                </dl>
+                            </div>
+                            <ul class="header-member-operation">
+                            	<li><a href="/member/point.action">我的积分</a></li>
+                                <li><a href="/member/collect.action">我的收藏</a></li>
+                                <li><a href="/member/coupon.action">我的优惠券</a></li>
+                            </ul>
+                    	</div>
+                    </div>
+                </li>
+                <li class="header-nav header-health-leader"><a href="/leaderarticle/leaderarticle!index.action" style="font-weight:bold;">健康领秀</a></li>
+           </ul>
+           <div class="header-login" id="h_login_reg_btn">
+           	Hi，去<a href="/login/login!index.action">登录</a>/<a href="/register/register!rindex.action">注册</a>
+           </div>
+    </div>
+</div>
+
+
+
+<link rel="stylesheet" type="text/css" href="/web/css/commonNew.css" />
+<div class="not-found-box w1210">
+	<img src="/web/img/not-found.png"/>
+    <p class="not-found-btn"><a href="/" class="rb-index">返回首页</a><a href="javascript:;" onclick="window.history.back();" class="rb-his">返回上一页</a></p>
+    <p class="not-found-tips">非常抱歉，我们会尽力修复的，或许您可以试着不要动<br/><span class="countTime">5</span>&nbsp;秒后我们将返回故事发生的地点（般若波罗密~）</p>
+</div>
+<link rel="stylesheet" type="text/css" href="/web/version2.2.0/css/common.extend.css" />
+<div class="footer">
+    <div class="footer-content clearfix clear" style="margin-top:23px;">
+    	<div class="custom_service_pics">
+        	<img src="http://img.zdfei.com/static/image/temp/20160115/9aef72032d67a492c088931a7e7dbb65.jpg"/>
+        	<img src="http://img.zdfei.com/static/image/temp/20160115/63ece58033ec789aa90d47aef35321bd.jpg" onclick="window.open('http://www.111yyg.com/','_blank')" style="cursor:pointer;"/>
+     	</div>
+  	<dl class="footer-list" style="margin-left:5px;">
+      	<dt>关于111</dt>
+		<dd>
+	<ul>
+	    <li><a href="http://cms.111yao.com/helps/About_111/Brief_introduction/" target="_blank">111简介</a></li>
+    <li><a href="http://cms.111yao.com/helps/About_111/Honor_qualification/" target="_blank">资质荣誉</a></li>
+    <li><a href="http://cms.111yao.com/helps/About_111/Join_us/" target="_blank">加入我们</a></li>
+    <li><a href="http://cms.111yao.com/helps/About_111/Contact_us/" target="_blank">联系我们</a></li>
+    <li><a href="http://cms.111yao.com/helps/About_111/Advertising_cooperation/" target="_blank">广告合作</a></li>
+    <li><a href="http://cms.111yao.com/helps/About_111/clause/" target="_blank">网站使用条款</a></li>
+    <li><a href="http://cms.111yao.com/helps/About_111/disclaimer/" target="_blank">网站免责声明</a></li>
+    <li><a href="http://cms.111yao.com/helps/About_111/protocol/" target="_blank">用户注册协议</a></li>
+	</ul>
+</dd>
+      </dl>
+      <dl class="footer-list">
+      	<dt>支付配送方式</dt>
+		<dd>
+	<ul>
+	    <li><a href="http://cms.111yao.com/helps/Payment_delivery/Cash_on_Delivery/" target="_blank">货到付款</a></li>
+    <li><a href="http://cms.111yao.com/helps/Payment_delivery/Third_party/" target="_blank">第三方网上支付</a></li>
+    <li><a href="http://cms.111yao.com/helps/Payment_delivery/Distribution_range/" target="_blank">配送范围和收费</a></li>
+    <li><a href="http://cms.111yao.com/helps/Payment_delivery/Commodity_sign/" target="_blank">商品签收注意</a></li>
+	</ul>
+</dd>
+      </dl>
+      <dl class="footer-list">
+      	<dt>帮助中心</dt>
+		<dd>
+	<ul>
+	    <li><a href="http://cms.111yao.com/helps/Help_center/Shopping_Directory/" target="_blank">购物指南</a></li>
+    <li><a href="http://cms.111yao.com/helps/Help_center/Order_processing/" target="_blank">订单处理</a></li>
+    <li><a href="http://cms.111yao.com/helps/Help_center/Refund_principle/" target="_blank">退换原则</a></li>
+    <li><a href="http://cms.111yao.com/helps/Help_center/Phone_check/" target="_blank">电话查真伪</a></li>
+    <li><a href="http://cms.111yao.com/helps/Help_center/Refund_mode/" target="_blank">退换方式</a></li>
+	</ul>
+</dd>
+      </dl>
+      <dl class="footer-list">
+      	<dt>111服务热线</dt>
+        <dd>
+        	<ul>
+                <li><a style="font-size:14px;">400-606-3111</a></li>
+                <li><a>24小时服务</a></li>
+            </ul>
+        </dd>
+        <dt style="margin-top:20px">北京 <span style="font-size:10px;">▪</span> 望京订购热线</dt>
+        <dd>
+        	<ul>
+                <li><a style="font-size:14px;">400-600-9119</a></li>
+                <li><a>24小时送药服务</a></li>
+            </ul>
+        </dd>
+      </dl>
+      </div>
+<div class="keep_on_record">
+    <span>
+    	<img src="http://img.zdfei.com/static/image/temp/20160224/7f795893a33c30696e83d0d0288ca3b8.jpg"/>
+    	<img src="http://img.zdfei.com/static/image/temp/20160224/a09aecce6d3d40de9bcc340aff0608e9.jpg"/>
+    	<img src="http://img.zdfei.com/static/image/temp/20160224/c5e50d06dcf58df64ab3a1df2e02e947.jpg"/>
+    	<img src="http://img.zdfei.com/static/image/temp/20160224/fa9c91cb4f55f6c28286c7be899d60f4.jpg"/>
+    	<img src="http://img.zdfei.com/static/image/temp/20160224/d38b868c7f9ccc8939b43e82b9ae9d37.jpg"/>
+    	<img src="http://img.zdfei.com/static/image/temp/20160224/c63332cf25d8b8b25612a94f82d24a92.jpg"/>
+    </span>
+    	<p>111医药馆－国家药监局认证的合法网上药店，致力于打造优质、低价、便捷的网上药店和最值得信赖的健康服务平台</p>
+	<p>Copyright&nbsp;&copy;&nbsp;2016&nbsp;http://www.111yao.com All Rights Reserved 北京壹壹壹商业连锁有限公司</p>
+	<p><img src="http://img.zdfei.com/static/image/temp/20160816/89e55f1b3f7d25c2ce187bd3470e924f.png" style="position:relative;left:203px;"/><span style="position:relative;"><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502031451">京公网安备 11010502031451号</a>&nbsp;&nbsp;&nbsp;京ICP备15059648号-3&nbsp;&nbsp;&nbsp;互联网药品交易服务资格证书京 C20160001</span></p>
+   	</div>
+  </div>
+  
+<link rel="stylesheet" type="text/css" href="/web/version2.2.0/css/common.css" />
+<link rel="stylesheet" type="text/css" href="/web/version2.2.0/css/base.css" />
+<script type="text/javascript" src="/web/version2.2.0/js/common2.js"></script>
+<div class="mui-mbar-tabs">
+	<div class="quick_link_mian">
+		<div class="quick_links_panel">
+			<div id="quick_links" class="quick_links">
+                <!-- li>
+					<a href="#"><i class="kfzx"></i></a>
+					<div class="mp_tooltip kf_list" style="height:100px; display:block">
+                    	<i class="icon_arrow_right_black"></i>
+                    	<span onclick="window.open('http://wpa.qq.com/msgrd?v=3&uin=2601114970&site=qq&menu=yes','_blank')">咨询客服1</span>
+                    	<span onclick="window.open('http://amos.im.alisoft.com/msg.aw?v=2&uid=%E6%97%B6%E4%BB%A3%E5%8D%83%E6%96%B9&site=cntaobao&s=1&charset=utf-8','_blank')">咨询客服2</span>
+                        <span onclick="window.open('http://amos.im.alisoft.com/msg.aw?v=2&uid=%E6%97%B6%E4%BB%A3%E5%8D%83%E6%96%B9&site=cntaobao&s=1&charset=utf-8','_blank')">咨询客服3</span>
+                        <span onclick="window.open('http://wpa.qq.com/msgrd?v=3&uin=2601114970&site=qq&menu=yes','_blank')">咨询客服4</span>
+                    </div>
+				</li -->
+			    <li>
+					<a href="#" class="mpbtn_kfkf"><i class="kfzx"></i></a>
+				</li>
+				
+				<li id="shopCart">
+					<a href="#" class="message_list" ><i class="message"></i><span class="cart_num" id="mycart-id">0</span></a>
+				</li>
+				<li onclick="toMyCollect()">
+					<a href="#" class="mpbtn_wdsc"><i class="wdsc"></i></a>
+					<div class="mp_tooltip">我的收藏<i class="icon_arrow_right_black"></i></div>
+				</li>
+                <li>
+					<a href="#" class="mpbtn_histroy"><i class="zuji"></i></a>
+					<div class="mp_tooltip">我的足迹<i class="icon_arrow_right_black"></i></div>
+				</li>
+			</div>
+			<div class="quick_toggle">
+				<li>
+					<a href="#none"><i class="mpbtn_qrcode"></i></a>
+					<div class="mp_qrcode"><img src="http://img.zdfei.com/static/image/temp/20160510/891fba2230bffb3e71c1f5018992384a.png" width="90" height="110" /><i class="icon_arrow_right_black"></i></div>
+				</li>
+                <li>
+					<a href="#top" class="return_top"><i class="top"></i></a>
+					<div class="mp_tooltip">返回顶部<i class="icon_arrow_right_black"></i></div>
+				</li>
+			</div>
+		</div>
+		<div id="quick_links_pop" class="quick_links_pop hide"></div>
+	</div>
+</div>
+
+<script type="text/javascript"> 
+var goods_id = $.trim($("#trun-gid").val());
+var platform = "";
+if(goods_id == "" || goods_id ==  null || goods_id == undefined)
+{
+	goods_id = "";
+}
+else
+{
+	platform = "pc";
+}
+var NTKF_PARAM =
+	{
+		"siteid":"kf_9470" /*网站siteid*/,
+		"settingid":"kf_9470_1480309099225", /*代码ID*/
+		"uid":"",  /*会员ID*/
+		"uname":"", /*会员名*/
+		"userlevel": "0", /*会员等级*/
+		"itemid":goods_id, /*商品ID*/
+		"itemparam":platform /*商品扩展参数*/
+	}
+</script>
+<script type="text/javascript" src="http://dl.ntalker.com/js/xn6/ntkfstat.js?siteid=kf_9470" charset="utf-8"></script>
+<script type="text/javascript" src="/web/version2.2.0/js/quick_links.js"></script>
+
+<!--[if lte IE 8]><script type="text/javascript" src="/web/version2.2.0/js/ieBetter.js"></script><![endif]-->
+<script type="text/javascript" src="/web/version2.2.0/js/parabola.js"></script>
+
+<script type="text/javascript">
+	//获取购物车数量
+	get_cart_sum();
+	$(".quick_links_panel li").mouseenter(function()
+	{
+		$(this).children(".mp_tooltip").animate({left:-92,queue:true});
+		$(this).children(".mp_tooltip").css("visibility","visible");
+		$(this).children(".ibar_login_box").css("display","block");
+	});
+	
+	$(".quick_links_panel li").mouseleave(function()
+	{
+		$(this).children(".mp_tooltip").css("visibility","hidden");
+		$(this).children(".mp_tooltip").animate({left:-121,queue:true});
+		$(this).children(".ibar_login_box").css("display","none");
+	});
+	
+	$(".quick_toggle li").mouseover(function()
+	{
+		$(this).children(".mp_qrcode").show();
+	});
+	
+	$(".quick_toggle li").mouseleave(function(){
+		$(this).children(".mp_qrcode").hide();
+	});
+
+	//元素以及其他一些变量
+	var eleFlyElement = document.querySelector("#flyItem"), eleShopCart = document.querySelector("#shopCart");
+	var numberItem = 0;
+	//抛物线运动
+	var myParabola = funParabola(eleFlyElement, eleShopCart, 
+	{
+		speed: 400, //抛物线速度
+		curvature: 0.0008, //控制抛物线弧度
+		complete: function() 
+		{
+			eleFlyElement.style.visibility = "hidden";
+			eleShopCart.querySelector("span").innerHTML = ++numberItem;
+		}
+	});
+	//绑定点击事件
+	if (eleFlyElement && eleShopCart) 
+	{
+		[].slice.call(document.getElementsByClassName("btnCart")).forEach(function(button) 
+		{
+			button.addEventListener("click", function(event) 
+			{
+				//滚动大小
+				var scrollLeft = document.documentElement.scrollLeft || document.body.scrollLeft || 0,
+				    scrollTop = document.documentElement.scrollTop || document.body.scrollTop || 0;
+				eleFlyElement.style.left = event.clientX + scrollLeft + "px";
+				eleFlyElement.style.top = event.clientY + scrollTop + "px";
+				eleFlyElement.style.visibility = "visible";
+				//需要重定位
+				myParabola.position().move();
+			});
+		});
+	 }
+</script>
+<style>
+	.readmore {text-align:right; margin-top:10px;}
+	.readmore a {margin-right:10px;}
+	.ntalk-window-containter .ntalk-window-body .body-chat-containter .chat-view-window-history ul li{ overflow:hidden !important;}
+</style>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253678575'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1253678575%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+
+<script>
+$(function()
+{
+	ctime();
+});
+var wait = 5;
+var clear = null;
+function ctime()
+{
+      clear = window.setInterval("time()", 1000);
+}
+function time() 
+{
+    if(wait == 0) 
+    {
+        window.clearInterval(clear);
+        window.location.href = "/";
+    }
+    if(wait > 0)
+    {
+        wait--;
+        $(".countTime").html(wait);
+    }
+    if(wait < 0)
+    {
+    	wait = 5;
+    }
+}    
+</script>
+</body>	
+</html>
