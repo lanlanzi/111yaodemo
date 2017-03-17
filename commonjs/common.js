@@ -1,19 +1,35 @@
-/**
- * Created by Administrator on 2017/3/15.
- */
-$(document).ready(function(){
-
-        $("form :input").blur(function() {
-            //注意：这里的this是DOM对象，$(this)才是jQuery对象
-            var $parent = $(this).parent();
-            //删除之前的错误提醒信息
-            $parent.find(".msg").remove();
-            //验证“名称”
-            if ($(this).is("#name")) {
-                //运用jQuery中的$.trim()方法，去掉首位空格
-                if ($.trim(this.value) == "" || $.trim(this.value).length < 6) {
-                    $(".passwordErro").css("display", "block")
-                }
+//登录框验证
+$(document).ready(function() {
+    $('form :input').focus(function () {
+        //验证用户名
+        if ($(this).is('#inputName')) {
+            if (this.value=="" ||( this.value!="" && !/.+@.+\.[a-zA-Z]{2,4}$/.test(this.value) )) {
+                $(".userErro").css("display","block")
+            }else {
+                $(".userErro").css("display","none")
+            }
         }
+        if ($(this).is('#inputName')) {
+            if (this.value=="" ||( this.value!="" && !/^1[34578]\d{9}$/.test(this.value) )) {
+                $(".userErro").css("display","block")
+            }else {
+                $(".userErro").css("display","none")
+            }
+        }
+        if ($(this).is('#inputPassword')) {
+            if (this.value=="" || this.value.length < 6 ) {
+                $(".passwordErro").css("display","block")
+            }else {
+                $(".passwordErro").css("display","none")
+            }
+        }
+    }).keyup(function () {
+        $(this).triggerHandler("focus");
+    });
+    $('form :input').blur(function () {
+        $(".userErro").css("display","none")
+            $(".passwordErro").css("display","none")
     });
 });
+
+//搜索框
