@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="../css/iconfont.css">
     <link rel="stylesheet" href="../css/commonstyle.css">
     <link rel="stylesheet" href="../css/index.css">
+    <script src="../commonjs/lib/jquery-1.11.3.js"></script>
+    <script src="../commonjs/common.js"></script>
+
 </head>
 <body>
 <div class="login-header">
@@ -25,8 +28,582 @@
     </div>
 </div>
 <!--seacher-->
-<div>
-    <input type="text" placeholder="请输入搜索内容...">
+<div class="seacher">
+    <input class="seacher-ipt" type="text" placeholder="请输入搜索内容...">
+    <a href="#" class="seacher-btn">搜索</a>
+</div>
+<div class="nav-menu">
+    <div class="wrap">
+        <ul>
+            <li class="stmenu"><a href="#"><span class="stmenu-first nav-dropdown">首页</span><b class="stmenu-drect"></b></a>
+                <div class="children">
+                    <ul>
+                        <li><a href="#"><span>成药馆</span></a></li>
+                        <li><a href="#"><span>保健馆</span></a></li>
+                        <li><a href="#"><span>糖人馆</span></a></li>
+                        <li><a href="#"><span>母婴馆</span></a></li>
+                        <li><a href="#"><span>品牌馆</span></a></li>
+                        <li><a href="#"><span>健康广场</span></a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="stmenu"><a href="#"><span class="nav-dropdown">按人群找药</span></a>
+                <div class="navhover-decrtion"></div>
+                <div class="stmenu-wrap children">
+                    <div class="stmenu-wrap-w1090">
+                        <div class="menu-column">
+                            <dl>
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#" id="red">抗菌消炎</a>
+                                    <a href="#">咳嗽咳痰</a>
+                                    <a href="#">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#" id="red">清热泻火</a>
+                                    <a href="#">疱疣湿疹</a>
+                                    <a href="#">五官疾病</a>
+                                    <a href="#">腹泻便秘</a>
+                                    <a href="#" id="">小儿感冒</a>
+                                    <a href="#">维矿物质</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#">抗菌消炎</a>
+                                    <a href="#" id="red">咳嗽咳痰</a>
+                                    <a href="#">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#">清热泻火</a>
+                                    <a href="#" id="red">疱疣湿疹</a>
+                                    <a href="#">五官疾病</a>
+                                    <a href="#">腹泻便秘</a>
+                                    <a href="#">小儿感冒</a>
+                                    <a href="#" id="red">维矿物质</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#">抗菌消炎</a>
+                                    <a href="#">咳嗽咳痰</a>
+                                    <a href="#" id="red">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#">清热泻火</a>
+                                    <a href="#">疱疣湿疹</a>
+                                    <a href="#" id="red">五官疾病</a>
+                                    <a href="#">腹泻便秘</a>
+                                    <a href="#">小儿感冒</a>
+                                    <a href="#" id="red">维矿物质</a>
+                                </dd>
+                            </dl>
+                            <dl class="menu-column-dl-last">
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#">抗菌消炎</a>
+                                    <a href="#" id="red">咳嗽咳痰</a>
+                                    <a href="#">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#">清热泻火</a>
+                                    <a href="#" id="red">疱疣湿疹</a>
+                                    <a href="#">五官疾病</a>
+                                    <a href="#" id="red">腹泻便秘</a>
+                                    <a href="#">小儿感冒</a>
+                                    <a href="#">维矿物质</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="stmenu"><a href="#"><span class="nav-dropdown">处方用药</span></a>
+                <div class="navhover-decrtion"></div>
+                <div class="stmenu-wrap children">
+                    <div class="stmenu-wrap-w1090">
+                        <div class="menu-column">
+                            <dl>
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#" id="red">抗菌消炎</a>
+                                    <a href="#">咳嗽咳痰</a>
+                                    <a href="#">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#" id="red">清热泻火</a>
+                                    <a href="#">疱疣湿疹</a>
+                                    <a href="#">五官疾病</a>
+                                    <a href="#">腹泻便秘</a>
+                                    <a href="#" id="">小儿感冒</a>
+                                    <a href="#">维矿物质</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#">抗菌消炎</a>
+                                    <a href="#" id="red">咳嗽咳痰</a>
+                                    <a href="#">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#">清热泻火</a>
+                                    <a href="#" id="red">疱疣湿疹</a>
+                                    <a href="#">五官疾病</a>
+                                    <a href="#">腹泻便秘</a>
+                                    <a href="#">小儿感冒</a>
+                                    <a href="#" id="red">维矿物质</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#">抗菌消炎</a>
+                                    <a href="#">咳嗽咳痰</a>
+                                    <a href="#" id="red">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#">清热泻火</a>
+                                    <a href="#">疱疣湿疹</a>
+                                    <a href="#" id="red">五官疾病</a>
+                                    <a href="#">腹泻便秘</a>
+                                    <a href="#">小儿感冒</a>
+                                    <a href="#" id="red">维矿物质</a>
+                                </dd>
+                            </dl>
+                            <dl class="menu-column-dl-last">
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#">抗菌消炎</a>
+                                    <a href="#" id="red">咳嗽咳痰</a>
+                                    <a href="#">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#">清热泻火</a>
+                                    <a href="#" id="red">疱疣湿疹</a>
+                                    <a href="#">五官疾病</a>
+                                    <a href="#" id="red">腹泻便秘</a>
+                                    <a href="#">小儿感冒</a>
+                                    <a href="#">维矿物质</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#">抗菌消炎</a>
+                                    <a href="#">咳嗽咳痰</a>
+                                    <a href="#" id="red">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#">清热泻火</a>
+                                    <a href="#">疱疣湿疹</a>
+                                    <a href="#" id="red">五官疾病</a>
+                                    <a href="#">腹泻便秘</a>
+                                    <a href="#">小儿感冒</a>
+                                    <a href="#" id="red">维矿物质</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#">抗菌消炎</a>
+                                    <a href="#">咳嗽咳痰</a>
+                                    <a href="#" id="red">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#">清热泻火</a>
+                                    <a href="#">疱疣湿疹</a>
+                                    <a href="#" id="red">五官疾病</a>
+                                    <a href="#">腹泻便秘</a>
+                                    <a href="#">小儿感冒</a>
+                                    <a href="#" id="red">维矿物质</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#">抗菌消炎</a>
+                                    <a href="#">咳嗽咳痰</a>
+                                    <a href="#" id="red">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#">清热泻火</a>
+                                    <a href="#">疱疣湿疹</a>
+                                    <a href="#" id="red">五官疾病</a>
+                                    <a href="#">腹泻便秘</a>
+                                    <a href="#">小儿感冒</a>
+                                    <a href="#" id="red">维矿物质</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="stmenu"><a href="#"><span class="nav-dropdown">家庭常备药</span></a>
+                <div class="navhover-decrtion"></div>
+                <div class="stmenu-wrap children">
+                    <div class="stmenu-wrap-w1090">
+                        <div class="menu-column">
+                            <dl>
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#" id="red">抗菌消炎</a>
+                                    <a href="#">咳嗽咳痰</a>
+                                    <a href="#">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#" id="red">清热泻火</a>
+                                    <a href="#">疱疣湿疹</a>
+                                    <a href="#">五官疾病</a>
+                                    <a href="#">腹泻便秘</a>
+                                    <a href="#" id="">小儿感冒</a>
+                                    <a href="#">维矿物质</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#">抗菌消炎</a>
+                                    <a href="#" id="red">咳嗽咳痰</a>
+                                    <a href="#">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#">清热泻火</a>
+                                    <a href="#" id="red">疱疣湿疹</a>
+                                    <a href="#">五官疾病</a>
+                                    <a href="#">腹泻便秘</a>
+                                    <a href="#">小儿感冒</a>
+                                    <a href="#" id="red">维矿物质</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#">抗菌消炎</a>
+                                    <a href="#">咳嗽咳痰</a>
+                                    <a href="#" id="red">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#">清热泻火</a>
+                                    <a href="#">疱疣湿疹</a>
+                                    <a href="#" id="red">五官疾病</a>
+                                    <a href="#">腹泻便秘</a>
+                                    <a href="#">小儿感冒</a>
+                                    <a href="#" id="red">维矿物质</a>
+                                </dd>
+                            </dl>
+                            <dl class="menu-column-dl-last">
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#">抗菌消炎</a>
+                                    <a href="#" id="red">咳嗽咳痰</a>
+                                    <a href="#">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#">清热泻火</a>
+                                    <a href="#" id="red">疱疣湿疹</a>
+                                    <a href="#">五官疾病</a>
+                                    <a href="#" id="red">腹泻便秘</a>
+                                    <a href="#">小儿感冒</a>
+                                    <a href="#">维矿物质</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="stmenu"><a href="#"><span class="nav-dropdown">慢性病用药</span></a>
+                <div class="navhover-decrtion"></div>
+                <div class="stmenu-wrap children">
+                    <div class="stmenu-wrap-w1090">
+                        <div class="menu-column">
+                            <dl>
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#" id="red">抗菌消炎</a>
+                                    <a href="#">咳嗽咳痰</a>
+                                    <a href="#">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#" id="red">清热泻火</a>
+                                    <a href="#">疱疣湿疹</a>
+                                    <a href="#">五官疾病</a>
+                                    <a href="#">腹泻便秘</a>
+                                    <a href="#" id="">小儿感冒</a>
+                                    <a href="#">维矿物质</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#">抗菌消炎</a>
+                                    <a href="#" id="red">咳嗽咳痰</a>
+                                    <a href="#">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#">清热泻火</a>
+                                    <a href="#" id="red">疱疣湿疹</a>
+                                    <a href="#">五官疾病</a>
+                                    <a href="#">腹泻便秘</a>
+                                    <a href="#">小儿感冒</a>
+                                    <a href="#" id="red">维矿物质</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#">抗菌消炎</a>
+                                    <a href="#">咳嗽咳痰</a>
+                                    <a href="#" id="red">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#">清热泻火</a>
+                                    <a href="#">疱疣湿疹</a>
+                                    <a href="#" id="red">五官疾病</a>
+                                    <a href="#">腹泻便秘</a>
+                                    <a href="#">小儿感冒</a>
+                                    <a href="#" id="red">维矿物质</a>
+                                </dd>
+                            </dl>
+
+                            <dl class="menu-column-dl-last">
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#">抗菌消炎</a>
+                                    <a href="#" id="red">咳嗽咳痰</a>
+                                    <a href="#">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#">清热泻火</a>
+                                    <a href="#" id="red">疱疣湿疹</a>
+                                    <a href="#">五官疾病</a>
+                                    <a href="#" id="red">腹泻便秘</a>
+                                    <a href="#">小儿感冒</a>
+                                    <a href="#">维矿物质</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#">抗菌消炎</a>
+                                    <a href="#">咳嗽咳痰</a>
+                                    <a href="#" id="red">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#">清热泻火</a>
+                                    <a href="#">疱疣湿疹</a>
+                                    <a href="#" id="red">五官疾病</a>
+                                    <a href="#">腹泻便秘</a>
+                                    <a href="#">小儿感冒</a>
+                                    <a href="#" id="red">维矿物质</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#">抗菌消炎</a>
+                                    <a href="#">咳嗽咳痰</a>
+                                    <a href="#" id="red">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#">清热泻火</a>
+                                    <a href="#">疱疣湿疹</a>
+                                    <a href="#" id="red">五官疾病</a>
+                                    <a href="#">腹泻便秘</a>
+                                    <a href="#">小儿感冒</a>
+                                    <a href="#" id="red">维矿物质</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#">抗菌消炎</a>
+                                    <a href="#">咳嗽咳痰</a>
+                                    <a href="#" id="red">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#">清热泻火</a>
+                                    <a href="#">疱疣湿疹</a>
+                                    <a href="#" id="red">五官疾病</a>
+                                    <a href="#">腹泻便秘</a>
+                                    <a href="#">小儿感冒</a>
+                                    <a href="#" id="red">维矿物质</a>
+                                </dd>
+                            </dl>
+                            <dl class="menu-column-dl-last">
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#">抗菌消炎</a>
+                                    <a href="#">咳嗽咳痰</a>
+                                    <a href="#" id="red">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#">清热泻火</a>
+                                    <a href="#">疱疣湿疹</a>
+                                    <a href="#" id="red">五官疾病</a>
+                                    <a href="#">腹泻便秘</a>
+                                    <a href="#">小儿感冒</a>
+                                    <a href="#" id="red">维矿物质</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="stmenu"><a href="#"><span class="nav-dropdown">器械/计生</span></a>
+                <div class="navhover-decrtion"></div>
+                <div class="stmenu-wrap children">
+                    <div class="stmenu-wrap-w1090">
+                        <div class="menu-column">
+                            <dl>
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#" id="red">抗菌消炎</a>
+                                    <a href="#">咳嗽咳痰</a>
+                                    <a href="#">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#" id="red">清热泻火</a>
+                                    <a href="#">疱疣湿疹</a>
+                                    <a href="#">五官疾病</a>
+                                    <a href="#">腹泻便秘</a>
+                                    <a href="#" id="">小儿感冒</a>
+                                    <a href="#">维矿物质</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#">抗菌消炎</a>
+                                    <a href="#" id="red">咳嗽咳痰</a>
+                                    <a href="#">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#">清热泻火</a>
+                                    <a href="#" id="red">疱疣湿疹</a>
+                                    <a href="#">五官疾病</a>
+                                    <a href="#">腹泻便秘</a>
+                                    <a href="#">小儿感冒</a>
+                                    <a href="#" id="red">维矿物质</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#">抗菌消炎</a>
+                                    <a href="#">咳嗽咳痰</a>
+                                    <a href="#" id="red">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#">清热泻火</a>
+                                    <a href="#">疱疣湿疹</a>
+                                    <a href="#" id="red">五官疾病</a>
+                                    <a href="#">腹泻便秘</a>
+                                    <a href="#">小儿感冒</a>
+                                    <a href="#" id="red">维矿物质</a>
+                                </dd>
+                            </dl>
+                            <dl class="menu-column-dl-last">
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#">抗菌消炎</a>
+                                    <a href="#" id="red">咳嗽咳痰</a>
+                                    <a href="#">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#">清热泻火</a>
+                                    <a href="#" id="red">疱疣湿疹</a>
+                                    <a href="#">五官疾病</a>
+                                    <a href="#" id="red">腹泻便秘</a>
+                                    <a href="#">小儿感冒</a>
+                                    <a href="#">维矿物质</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="stmenu"><a href="#"><span class="stmenu-last nav-dropdown">保健/母婴/个护</span></a>
+                <div class="navhover-decrtion"></div>
+                <div class="stmenu-wrap children">
+                    <div class="stmenu-wrap-w1090">
+                        <div class="menu-column">
+                            <dl>
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#" id="red">抗菌消炎</a>
+                                    <a href="#">咳嗽咳痰</a>
+                                    <a href="#">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#" id="red">清热泻火</a>
+                                    <a href="#">疱疣湿疹</a>
+                                    <a href="#">五官疾病</a>
+                                    <a href="#">腹泻便秘</a>
+                                    <a href="#" id="">小儿感冒</a>
+                                    <a href="#">维矿物质</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#">抗菌消炎</a>
+                                    <a href="#" id="red">咳嗽咳痰</a>
+                                    <a href="#">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#">清热泻火</a>
+                                    <a href="#" id="red">疱疣湿疹</a>
+                                    <a href="#">五官疾病</a>
+                                    <a href="#">腹泻便秘</a>
+                                    <a href="#">小儿感冒</a>
+                                    <a href="#" id="red">维矿物质</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#">抗菌消炎</a>
+                                    <a href="#">咳嗽咳痰</a>
+                                    <a href="#" id="red">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#">清热泻火</a>
+                                    <a href="#">疱疣湿疹</a>
+                                    <a href="#" id="red">五官疾病</a>
+                                    <a href="#">腹泻便秘</a>
+                                    <a href="#">小儿感冒</a>
+                                    <a href="#" id="red">维矿物质</a>
+                                </dd>
+                            </dl>
+                            <dl class="menu-column-dl-last">
+                                <dt><a href="#">儿童</a></dt>
+                                <dd>
+                                    <a href="#">小儿发烧</a>
+                                    <a href="#">抗菌消炎</a>
+                                    <a href="#" id="red">咳嗽咳痰</a>
+                                    <a href="#">消化不良</a>
+                                    <a href="#">驱虫药</a>
+                                    <a href="#">清热泻火</a>
+                                    <a href="#" id="red">疱疣湿疹</a>
+                                    <a href="#">五官疾病</a>
+                                    <a href="#" id="red">腹泻便秘</a>
+                                    <a href="#">小儿感冒</a>
+                                    <a href="#">维矿物质</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+</div>
+<div class="banner">
+    
 </div>
 </body>
 </html>

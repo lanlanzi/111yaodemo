@@ -30,6 +30,31 @@ $(document).ready(function() {
         $(".userErro").css("display","none")
             $(".passwordErro").css("display","none")
     });
+    //搜索框
+//滑过菜单栏
+    /*nav menu*/
+   // console.log($(".stmenu"))
+    $(".stmenu").hover(function()
+        {
+            // $('.children').stop(true,true).hide();
+            // $('.nav-dropdown').removeClass('navhover');
+            // $(".navhover-decrtion").css("display","none");
+            $(this).find('.children').delay(200).animate({ opacity:'show', height:'show' },200);
+            $(this).find('.nav-dropdown').delay(200).addClass('navhover');
+            $(this).find('.navhover-decrtion').delay(200).css("display","block");
+        },
+        function()
+        {
+            $('.children').stop(true,true).hide();
+            $('.nav-dropdown').removeClass('navhover');
+            $(".navhover-decrtion").css("display","none");
+        });
+
+
+
+
+
+
+
 });
 
-//搜索框
