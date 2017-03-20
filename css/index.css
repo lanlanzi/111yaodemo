@@ -78,15 +78,26 @@
     width: 104px;
     text-align: center;
     font-size: 15px;
-    border: 1px solid #d7d7d7;
-    border-bottom: 0px;
-    border-top: 0px;
 }
-.stmenu .children ul li:last-child a span{
+.stmenu .children .children-first a {
+    font-weight: normal;
+    width: 104px;
+    text-align: center;
+    font-size: 15px;
+    background: #ffffff;
+    border-left: 1px #d7d7d7 solid;
+    border-right: 1px #d7d7d7 solid;
+    text-decoration: none;
+    color: black;
+}
+
+.stmenu .children ul li:last-child a {
     border-bottom: 1px solid #d7d7d7;
 }
 .stmenu .children{
     display: none;
+    z-index: 100;
+    position: absolute;
 }
 .stmenu-wrap{
     width: 100%;
@@ -95,6 +106,8 @@
     top: 180px;
     border-top: 1px solid #d7d7d7;
     border-bottom: 1px solid #d7d7d7;
+   background: #ffffff;
+    z-index: 100;
 }
 .stmenu-wrap-w1090{
     width: 1090px;
@@ -138,7 +151,7 @@
     background: #fff;
     position: absolute;
     top: 180px;
-    z-index: 999;
+    z-index: 200;
     display: none;
 }
 .nav-menu .wrap ul .stmenu a .nav-dropdown:hover{

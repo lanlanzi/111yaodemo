@@ -7,11 +7,12 @@
     <title>首页</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/swiper-3.4.2.min.css">
     <link rel="stylesheet" href="../css/commonstyle.css">
     <link rel="stylesheet" href="../css/index.css">
     <script src="../commonjs/lib/jquery-1.11.3.js"></script>
+    <script src="../commonjs/lib/swiper-3.4.2.min.js"></script>
     <script src="../commonjs/common.js"></script>
-
 </head>
 <body>
 <div class="login-header">
@@ -37,13 +38,13 @@
         <ul>
             <li class="stmenu"><a href="#"><span class="stmenu-first nav-dropdown">首页</span><b class="stmenu-drect"></b></a>
                 <div class="children">
-                    <ul>
-                        <li><a href="#"><span>成药馆</span></a></li>
-                        <li><a href="#"><span>保健馆</span></a></li>
-                        <li><a href="#"><span>糖人馆</span></a></li>
-                        <li><a href="#"><span>母婴馆</span></a></li>
-                        <li><a href="#"><span>品牌馆</span></a></li>
-                        <li><a href="#"><span>健康广场</span></a></li>
+                    <ul class="children-first">
+                        <li><a href="#">成药馆</a></li>
+                        <li><a href="#">保健馆</a></li>
+                        <li><a href="#">糖人馆</a></li>
+                        <li><a href="#">母婴馆</a></li>
+                        <li><a href="#">品牌馆</a></li>
+                        <li><a href="#">健康广场</a></li>
                     </ul>
                 </div>
             </li>
@@ -603,7 +604,28 @@
 
 </div>
 <div class="banner">
-    
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="../images/index/f164415cd149275d2c2fc41fe28832b4.jpg" height="370"
+                                           width="1920"/></div>
+            <div class="swiper-slide"><img src="../images/index/86f39438708c081b13cc5b6667a16c22.jpg" height="370"
+                                           width="1920"/></div>
+            <div class="swiper-slide"><img src="../images/index/22910fc275419d31b8752a463e46de86.jpg" height="370"
+                                           width="1920"/></div>
+            <div class="swiper-slide"><img src="../images/index/f5f9a72c03a4b06b0110863d2fb5763d.jpg"/></div>
+            <div class="swiper-slide"><img src="../images/index/2008b5320cf342ac6a0e47984783f77f.jpg" height="370"
+                                           width="1920"/></div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- 如果需要滚动条 -->
+        <div class="swiper-scrollbar"></div>
+    </div>
 </div>
 </body>
 </html>
