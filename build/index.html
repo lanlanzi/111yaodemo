@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="../css/commonstyle.css">
     <link rel="stylesheet" href="../css/index.css">
     <script src="../commonjs/lib/jquery-1.11.3.js"></script>
-    <script src="../commonjs/lib/swiper-3.4.2.min.js"></script>
     <script src="../commonjs/common.js"></script>
+    <script src="../commonjs/lib/swiper-3.4.2.min.js"></script>
 </head>
 <body>
 <div class="login-header">
@@ -36,7 +36,7 @@
 <div class="nav-menu">
     <div class="wrap">
         <ul>
-            <li class="stmenu"><a href="#"><span class="stmenu-first nav-dropdown">首页</span><b class="stmenu-drect"></b></a>
+            <li class="stmenu"><a href="#"><span class="stmenu-first nav-dropdown" >首页</span><b class="stmenu-drect"></b></a>
                 <div class="children">
                     <ul class="children-first">
                         <li><a href="#">成药馆</a></li>
@@ -603,18 +603,19 @@
     </div>
 
 </div>
-<div class="banner">
+<!--banner-->
     <div class="swiper-container">
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="../images/index/f164415cd149275d2c2fc41fe28832b4.jpg" height="370"
-                                           width="1920"/></div>
-            <div class="swiper-slide"><img src="../images/index/86f39438708c081b13cc5b6667a16c22.jpg" height="370"
-                                           width="1920"/></div>
-            <div class="swiper-slide"><img src="../images/index/22910fc275419d31b8752a463e46de86.jpg" height="370"
-                                           width="1920"/></div>
-            <div class="swiper-slide"><img src="../images/index/f5f9a72c03a4b06b0110863d2fb5763d.jpg"/></div>
-            <div class="swiper-slide"><img src="../images/index/2008b5320cf342ac6a0e47984783f77f.jpg" height="370"
-                                           width="1920"/></div>
+            <div class="swiper-slide blue-slide"><img src="../images/index/f164415cd149275d2c2fc41fe28832b4.jpg"
+                                                      height="370" width="100%"/></div>
+            <div class="swiper-slide red-slide"><img src="../images/index/86f39438708c081b13cc5b6667a16c22.jpg"
+                                                     height="370" width="100%"/></div>
+            <div class="swiper-slide orange-slide"><img src="../images/index/22910fc275419d31b8752a463e46de86.jpg"
+                                                        height="370" width="100%"/></div>
+            <div class="swiper-slide orange-slide"><img src="../images/index/f5f9a72c03a4b06b0110863d2fb5763d.jpg"
+                                                        height="370" width="100%"/></div>
+            <div class="swiper-slide orange-slide"><img src="../images/index/2008b5320cf342ac6a0e47984783f77f.jpg"
+                                                        height="370" width="100%"/></div>
         </div>
         <!-- 如果需要分页器 -->
         <div class="swiper-pagination"></div>
@@ -623,9 +624,22 @@
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
 
-        <!-- 如果需要滚动条 -->
-        <div class="swiper-scrollbar"></div>
     </div>
+<div class="main">
+
 </div>
+<script type="text/javascript">
+    var mySwiper = new Swiper('.swiper-container',{
+        loop: true,
+        autoplay: 2000,
+        pagination: '.swiper-pagination',
+        paginationClickable :true,
+        // 如果需要前进后退按钮
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+
+    });
+
+</script>
 </body>
 </html>
