@@ -1,3 +1,4 @@
+
 .seacher{
     width: 1090px;
     margin: 14px auto;
@@ -204,3 +205,113 @@
 {
     margin: 0 2px;
 }
+.main{
+    width: 100%;
+    background:#f3f5f7;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.main-img{
+    width: 1090px;
+    margin: 0 auto;
+    position: relative;
+}
+.main-img-title{
+    margin-bottom: 5px;
+}
+.main-img-title h2{
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    width: 180px;
+    background: url("../images/index/index_ico.png") no-repeat center left;
+    font-size: 17px;
+    font-weight: 300;
+}
+.main-img-title span{
+    color: #d7d7d7;
+    font-size: 14px;
+}
+.main-img-hottdy-fir li{
+    float: left;
+    margin: 0px 7px 7px 0px;
+}
+.main-img-hottdy-fir li:last-child{
+    margin-left: 0px;
+}
+.main-img-hottdy-sec li{
+    float: left;
+    margin: 0px 7px 6px 0px;
+}
+.main-img-hottdy-sec li:last-child{
+    margin-left: 0px;
+}
+.main-img-hottdy-tir li{
+    float: left;
+    margin: 0px 5px 6px 0px;
+}
+.adr-product{
+    float: left;
+    width: 540px;
+    height: 342px;
+    margin: 0px 5px 10px 0px;
+}
+.index-product-show{
+    float: left;
+    width: 265px;
+    height: 342px;
+    margin: 0px 7px 10px 0px;
+}
+.index-product-show a{
+    text-decoration: none;
+    background: #ffffff;
+    display: block;
+    height: 342px;
+    width: 265px;
+}
+.index-product-show img{
+    height: 265px;
+}
+.index-product-info{
+    padding: 0 40px;
+}
+.index-product-name,.index-product-express{
+    font-size: 14px;
+    color: black;
+    height: 20px;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 185px;
+    word-break: keep-all;
+}
+.index-product-express{
+    font-weight: bold;
+}
+.index-product-price b{
+    font-size: 12px;
+}
+.index-product-price span{
+    color: #fe4310;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial;
+}
+.index-product-price i{
+    color: #999999;
+    font-size: 12px;
+    font-style: normal;
+    text-decoration: line-through;
+    margin-left: 6px;
+}
+.sider-nav{width:100px; height:auto; text-align:center; background:#fff; position:absolute; left:-100px; top:30px; z-index:9; overflow:hidden;}
+.sider_nav{width:100px; height:auto; text-align:center; background:#fff; position:absolute; left:-100px; top:30px; z-index:9; overflow:hidden;}
+.Jfix{position:fixed !important; top:36% !important;}
+.sider-nav li{height:30px; width:100px; line-height:30px; position:relative; cursor:pointer; *overflow:hidden; *float:left;}
+.sider-nav li span{font-size:14px; width:100px; line-height:30px; height:30px; overflow:hidden; position:absolute; left:0; top:0;}
+.sider-nav li i{width:100px; height:2px; display:inline-block; overflow:hidden; background:#f3f5f7; position:absolute; left:0px; bottom:-1px;}
+.sider-nav li span.default-s{ display:block; color:#666;}
+.sider-nav li span.current-s{display:none; z-index:9; color:#fff !important; background:#00aaa0;}
+.sider-nav li:hover span.current-s,.sider-nav li.current span.current-s{display:block;}

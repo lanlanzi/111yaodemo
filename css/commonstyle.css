@@ -1,4 +1,17 @@
 @charset "UTF-8";
+.clearfix:after {
+    clear: both;
+    display: block;
+    visibility: hidden;
+    overflow: hidden;
+    height: 0;
+    content: ".";
+    font-size: 0;
+}
+.clear {
+    clear: both;
+    zoom: 1;
+}
 .login-header{
     height: 82px;
     width: 100%;

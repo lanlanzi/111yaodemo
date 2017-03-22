@@ -74,6 +74,7 @@ $(document).ready(function() {
         $(".swiper-button-next").hide();
         $(".swiper-pagination").hide();
     });
+    //动态生成index商品
 
 
 });
