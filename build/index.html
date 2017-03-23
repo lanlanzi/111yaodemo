@@ -15,6 +15,7 @@
     <script src="../commonjs/index.js"></script>
     <script src="../commonjs/common.js"></script>
 
+
 </head>
 <body>
 <div class="login-header">
@@ -1551,9 +1552,44 @@
         </p>
     </div>
 </div>
+<div class="mui-mbar-tabs">
+    <div class="quick_link_mian">
+        <div class="quick_links_panel">
+            <div id="quick_links" class="quick_links">
+                <li>
+                    <a href="#" class="mpbtn_kfkf"><i class="kfzx"></i></a>
+                </li>
+
+                <li id="shopCart">
+                    <a href="#" class="message_list" ><i class="message"></i><span class="cart_num" id="mycart-id">0</span></a>
+                </li>
+                <li onclick="toMyCollect()">
+                    <a href="#" class="mpbtn_wdsc"><i class="wdsc"></i></a>
+                    <div class="mp_tooltip">我的收藏<i class="icon_arrow_right_black"></i></div>
+                </li>
+                <li>
+                    <a href="#" class="mpbtn_histroy"><i class="zuji"></i></a>
+                    <div class="mp_tooltip">我的足迹<i class="icon_arrow_right_black"></i></div>
+                </li>
+            </div>
+            <div class="quick_toggle">
+                <li>
+                    <a href="#none"><i class="mpbtn_qrcode"></i></a>
+                    <div class="mp_qrcode"><img src="http://img.zdfei.com/static/image/temp/20160510/891fba2230bffb3e71c1f5018992384a.png" width="90" height="110" /><i class="icon_arrow_right_black"></i></div>
+                </li>
+                <li>
+                    <a href="#top" class="return_top"><i class="top"></i></a>
+                    <div class="mp_tooltip">返回顶部<i class="icon_arrow_right_black"></i></div>
+                </li>
+            </div>
+        </div>
+        <div id="quick_links_pop" class="quick_links_pop hide"></div>
+    </div>
+</div>
 <span class="tongJi">
     <a href="#"><img src="../images/login/pic.gif" height="12" width="50"/></a>
 </span>
+
 <script type="text/javascript">
     //锚点滚轮事件
     var array = new Array();
