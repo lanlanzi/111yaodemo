@@ -1,0 +1,171 @@
+
+/*product-details*/
+.details-info{padding:0 0 0px; background:#f7f7f7;}
+.bread-nav{height:45px; line-height:45px;}
+.bread-nav a,.bread-nav em{text-decoration:none;color:#222; font-family: 'Hiragino Sans GB','Microsoft YaHei',"\9ED1\4F53",Arial,Helvetica,verdana,sans-serif;font-size:13px;}
+.bread-nav a:hover {color:#fe4310;}
+
+.bread-nav em{padding:0 5px;}
+.prouduct-details{
+    width: 100%;
+    background: #F7F7F7;
+    height:530px;
+    padding:15px 0;
+}
+.product-wrap{width: 1000px;
+    background: #ffffff;
+    height: 503px;
+    margin: 0 auto;
+}
+.prouduct-details-express{
+    float: left;
+    margin-top: 20px;
+}
+
+/*放大镜*/
+.ZoomMain {width:350px;height:350px;float:left;position:relative;margin-left: 10px;margin-top: 10px}
+.ZoomMain .zoom {height:350px;width:350px;position:relative;}
+.ZoomMain .zoom .move{position:absolute;left:0; top:0;display:none;width:195px; height:195px;background:#000;opacity:0.2;filter:Alpha(Opacity=20); z-index: 999;}
+.ZoomMain .zoomDetail{display:none;border:1px solid #DCDDDD;width:350px; height:350px; position:absolute;right:-100%;top:0px; overflow:hidden;background: #ffffff; z-index: 999;}
+.littleImg {margin-top:10px;height:60px;overflow:hidden;position:relative;}
+
+.littleImg .slideMain {width:343px;height:55px;margin-left:26px;overflow:hidden;position:relative;}
+.littleImg .slideMain ul {position:absolute;left:0;width:355px;padding-top:1px; z-index: 999;}
+.littleImg .slideMain ul li {float:left;margin-right:6px;cursor:pointer;width:50px;height:50px;border:1px solid #ffffff;}
+.littleImg .slideMain ul li.selected {border-color:#fe4310;}
+.littleImg .slideMain ul li img {float:left;width:50px;height:45px;}
+/*放大镜end*/
+.prouduct-details-express h2{
+    color: #5c5c5c;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.prouduct-details-intr{
+font-size:14px; color:#222; margin:5px 0 10px; font-weight:bold;
+}
+.prouduct-details-text{
+    margin-left: 18px;
+    line-height: 20px;
+    font-size: 12px;
+}
+.prouduct-details-text span{
+    color:#00b8c9;
+}
+.prouduct-details-price{
+    background:#f2fbfc; margin-top:10px; padding:25px 0 25px 0; position:relative; width:585px;border-top:#d7d7d7 1px dashed;border-bottom:#d7d7d7 1px dashed;
+}
+.prouduct-details-price p{
+    margin-left: 18px;
+    font-size: 14px;
+}
+.prouduct-details-price p span{
+    font-size: 22px;
+    color: #fe4310;
+    font-weight: bolder;
+}
+.prouduct-details-price p i{
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    text-decoration:line-through;
+}
+.prouduct-details-size{
+    margin-left: 18px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.prouduct-details-size span{
+    border: 3px solid #fe4310;
+    width: 60px;
+    height: 22px;
+    padding: 5px;
+    font-size: 12px;
+}
+.prouduct-details-count{
+    margin-top: 80px;
+    margin-left: 18px;
+}
+.prouduct-details-count span{
+    width: 32px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #d7d7d7;
+    font-size: 14px;
+}
+.prouduct-details-count span:nth-child(2){
+    border-right:none;
+    border-left:none;
+    width: 40px;
+}
+.prouduct-details-btn{
+    margin-left: 18px;
+    margin-top: 10px;
+    height: 50px;
+}
+.prouduct-details-btn-buy{
+    color: #fe4310;
+    font-size: 16px;
+    text-align: center;
+    background: #ffffff;
+    border: 2px #fe4310 solid;
+    line-height: 39px;
+    height: 39px;
+    text-decoration: none;
+    width: 100px;
+    display: inline-block;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.prouduct-details-btn-addto{
+     color: #ffffff;
+     font-size: 16px;
+     text-align: center;
+     background: #fe4310;
+     border: 2px #fe4310 solid;
+     line-height: 39px;
+     height: 39px;
+     text-decoration: none;
+     width: 100px;
+    display: inline-block;
+    font-weight: bolder;
+    margin-left: 10px;
+    border-radius: 5px;
+ }
+.tabproduct-wrap{
+    width: 1000px;
+    margin: 0px auto;
+}
+.tabproduct-menu{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.tabproduct-menu-li{
+    float: left;
+    font-weight: bolder;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px #d7d7d7 solid;
+    cursor: pointer;
+}
+.tabproduct-menu-wrap{
+    border-bottom: 2px #000000 solid;
+    width: 790px;
+    height: 40px;;
+}
+.tabproduct-menu ul{
+    float: left;
+    width: 790px;
+    margin-bottom: 20px;
+}
+.tabhide{
+    display: none;
+}
+.slectedtab{
+    color: #00aaa0;
+    border-color:#00aaa0;
+    border-bottom: 3px #00aaa0 solid ;
+}

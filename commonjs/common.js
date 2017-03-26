@@ -74,8 +74,11 @@ $(document).ready(function() {
         $(".swiper-button-next").hide();
         $(".swiper-pagination").hide();
     });
-    //动态生成index商品
 
-
+    $(".quick_toggle a").hover(function () {
+        $(".mp_qrcode").css("display","block")
+    },function () {
+        $(".mp_qrcode").css("display","none")
+    });
 });
 
